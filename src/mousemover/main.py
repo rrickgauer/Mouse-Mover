@@ -16,7 +16,3 @@ def run():
         routines.move_mouse()
         routines.change_volume()
         routines.report_movement()
-
-
-# # run the main method
-# main()
