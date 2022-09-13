@@ -11,6 +11,8 @@ def run():
     # print program data
     routines.print_program_data(constants.MAX_CYCLES)
 
+    print(f'\n\nBe sure to place hover your mouse over Teams calendar!!\n\n')
+
     # make program sleep for specified sleep cycle
     for _ in range(constants.MAX_CYCLES):
         routines.move_mouse()
