@@ -44,11 +44,11 @@ def print_program_data(num_minutes):
 #--------------------------------------------------
 def print_message_with_time(message):
     current = datetime.now()
-    output = current.strftime(constants.OUTPUT_TIME_FORMAT_TOKEN)
+    output = current.strftime(constants.MIN_SLEEP_SECONDS)
     print(f'{output} - {message}')
 
 #--------------------------------------------------
 # pause the current program execution
 #--------------------------------------------------
-def pause(seconds=constants.MIN_SLEEP_TIME):
+def pause(seconds=constants.PAUSE_SECONDS):
     time.sleep(seconds)
