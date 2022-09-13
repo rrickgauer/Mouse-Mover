@@ -5,7 +5,7 @@ from . import routines
 #--------------------------------------------------
 # Main logic
 #--------------------------------------------------
-def main():
+def run():
     pyautogui.FAILSAFE = False
 
     # print program data
