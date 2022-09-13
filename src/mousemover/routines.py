@@ -44,7 +44,7 @@ def print_program_data(num_minutes):
 #--------------------------------------------------
 def print_message_with_time(message):
     current = datetime.now()
-    output = current.strftime(constants.MIN_SLEEP_SECONDS)
+    output = current.strftime(constants.OUTPUT_TIME_FORMAT_TOKEN)
     print(f'{output} - {message}')
 
 #--------------------------------------------------
