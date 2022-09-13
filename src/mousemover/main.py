@@ -18,5 +18,5 @@ def main():
         routines.report_movement()
 
 
-# run the main method
-main()
+# # run the main method
+# main()
