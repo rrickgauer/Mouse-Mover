@@ -29,7 +29,7 @@ def change_volume():
 #--------------------------------------------------
 def report_movement():
     print_message_with_time('Mouse moved.')
-    pause()
+    pause(constants.MIN_SLEEP_SECONDS)
 
 #--------------------------------------------------
 # print program data
