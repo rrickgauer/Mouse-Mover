@@ -5,12 +5,12 @@ Python script to slightly move your mouse.
 ## Installation
 
 ```sh
-pip install -U Mouse-Mover
+pip install -U Auto-Mouse-Mover
 ```
 
 
 ## Usage
 
 ```sh
-mousemover
+python -m mousemover
 ```
